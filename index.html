@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Account Creation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="main-container">
+        <div class="left-panel">
+            <div class="left-panel-content">
+                <div class="odin-logo">  
+                  <img src="images/odin-lined.png">              
+                   <span>ODIN</span>
+                </div>
+            </div>
+            <p class="image-attribution">
+                Photo by <a href="https://www.haliewestphotography.com/" target="_blank" rel="noopener noreferrer">Hallie West</a> on 
+                <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA" target="_blank" rel="noopener noreferrer">Unsplash</a>
+            </p>
+        </div>
+          <div class="right-panel">
+            <div class="form-wrapper">
+                <p class="intro-text">This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+                <p class="intro-text">Sign up <strong>now</strong> to get started.</p>
+                <p class="intro-text">You know you want to.</p>
+                <h1>Let's do this!</h1>
+
+                <form class="account-form">
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" id="firstName" name="firstName" value="Thor">
+                        </div>
+                        <div class="form-field">
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" id="lastName" name="lastName" value="Odinsoni">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-field">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-field error">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <div class="form-field error">
+                            <label for="confirmPassword">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirmPassword" name="confirmPassword">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="create-account-button">Create Account</button>
+
+                    <p class="login-link">Already have an account? <a href="#">Log in</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
