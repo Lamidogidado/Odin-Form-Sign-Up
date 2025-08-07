@@ -208,6 +208,9 @@ body {
 .login-link a:hover {
     text-decoration: underline;
 }
+.form-field.error input {
+    border-color: #ff0000;
+  }
 
 
 /* Responsive Adjustments for smaller screens */
